@@ -4,11 +4,11 @@ PKG             := qt6-activeqt
 $(PKG)_WEBSITE  := https://www.qt.io/
 $(PKG)_DESCR    := Qt 6 Active Qt
 $(PKG)_IGNORE   :=
-$(PKG)_VERSION  := 6.1.3
-$(PKG)_CHECKSUM := bb35cab37e12fd053d84a204998795bdce02a2e353fbc5da452638dd1e13ddf4
+$(PKG)_VERSION  := 6.2.0-beta3
+$(PKG)_CHECKSUM := c2932da9bec4d342e07912f8c8e404cc90c758015ed20a513b57396eb6a3f365
 $(PKG)_SUBDIR   := qtactiveqt-everywhere-src-$($(PKG)_VERSION)
 $(PKG)_FILE     := qtactiveqt-everywhere-src-$($(PKG)_VERSION).tar.xz
-$(PKG)_URL      := https://download.qt.io/official_releases/qt/6.1/$($(PKG)_VERSION)/submodules/$($(PKG)_FILE)
+$(PKG)_URL      := https://download.qt.io/development_releases/qt/6.2/$($(PKG)_VERSION)/submodules/$($(PKG)_FILE)
 $(PKG)_DEPS     := cc qt6-qtbase
 $(PKG)_TARGETS  := $(BUILD) $(MXE_TARGETS)
 
